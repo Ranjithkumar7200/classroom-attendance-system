@@ -48,7 +48,7 @@ const IMAGE_DATABASE = [
   {
     id: 5,
     url: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=100&h=100&fit=crop",
-    categories: ["animals", "pets"],
+    categories: ["animals"],
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const IMAGE_DATABASE = [
   {
     id: 7,
     url: "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?w=100&h=100&fit=crop",
-    categories: ["cars", "transport"],
+    categories: ["cars"],
   },
   {
     id: 8,
@@ -68,12 +68,12 @@ const IMAGE_DATABASE = [
   {
     id: 9,
     url: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=100&h=100&fit=crop",
-    categories: ["food", "drinks"],
+    categories: ["food"],
   },
   {
     id: 10,
     url: "https://images.unsplash.com/photo-1530652101053-8c0db4fbb5de?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    categories: ["traffic_lights", "roads"],
+    categories: ["traffic_lights"],
   },
   {
     id: 11,
@@ -98,7 +98,7 @@ const IMAGE_DATABASE = [
   {
     id: 15,
     url: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=100&h=100&fit=crop",
-    categories: ["traffic_lights", "roads"],
+    categories: ["traffic_lights"],
   },
   {
     id: 16,
@@ -118,22 +118,22 @@ const IMAGE_DATABASE = [
   {
     id: 19,
     url: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=100&h=100&fit=crop",
-    categories: ["animals", "pets"],
+    categories: ["animals"],
   },
   {
     id: 20,
     url: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=100&h=100&fit=crop",
-    categories: ["food", "drinks"],
+    categories: ["food"],
   },
   {
     id: 21,
     url: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=100&h=100&fit=crop",
-    categories: ["cars", "transport"],
+    categories: ["cars"],
   },
   {
     id: 22,
     url: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=100&h=100&fit=crop",
-    categories: ["cycles", "transport"],
+    categories: ["cycles"],
   },
   {
     id: 23,
@@ -148,7 +148,7 @@ const IMAGE_DATABASE = [
   {
     id: 25,
     url: "https://images.unsplash.com/photo-1552248524-10d9a7e4841c?w=100&h=100&fit=crop",
-    categories: ["traffic_lights", "roads"],
+    categories: ["traffic_lights"],
   },
 ];
 export default function ImageCaptcha({ onVerified }) {
