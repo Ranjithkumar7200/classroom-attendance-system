@@ -258,6 +258,7 @@ export default function ImageCaptcha({ onVerified }) {
 
   return (
     <Container className="d-flex flex-column justify-content-center align-items-center vh-100">
+      <h2 className="mb-5 text-center">🛡️ Image CAPTCHA Verification</h2>
       <Card className="mx-auto" style={{ maxWidth: "500px" }}>
         <Card.Header className="bg-primary text-white">
           <div className="d-flex justify-content-between align-items-center">
